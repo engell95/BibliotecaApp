@@ -1,30 +1,55 @@
-# React + TypeScript + Vite
+# Test para FullStack Ensitech
+  -- BibliotecaApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## tecnologías:
 
-Currently, two official plugins are available:
+- **Frontend**
+react 18.2.0
+node 20.11.0 
+npm 10.2.4
+vite 5.2.0
+typescript 5.2.2
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Servicios**
+Biblioteca Api 
 
-## Expanding the ESLint configuration
+## Visual Studio
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Para ejecución del proyecto estamos haciendo uso de Visual Studio Code 1.88.1
 
-- Configure the top-level `parserOptions` property like this:
+### Configuraciones de entorno Frontend (BibliotecaApp)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. Editar archivo .env, clave VITE_API_BASE_URL, para agregar o modificar url de la api (Servicios)
+-- Por Defecto: http://localhost:5024/api/
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Correr proyecto
+
+Una vez cumplido los requisitos para el proyecto debemos iniciarlos
+
+  -- BibliotecaApp
+      comando: 
+        - npm install
+        - npm run dev
+
+Una vez se encuentre ejecutando el proyecto en local deberá poder acceder a este 
+haciendo uso de las siguiente URL 
+
+> http://localhost:5173/             - APP
+
+## Acceso a las aplicaciones
+
+1) acceder ah: http://localhost:5173/   (o el puerto configurado para la aplicacion web)
+2) Ingresar credenciales
+
+Administrador
+- Admin
+- Superadmin@123
+
+Usuario1
+- Usuario1
+- Seguro@123
+
+Usuario2
+- Usuario2
+- Seguro@123
+
